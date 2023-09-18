@@ -1,6 +1,5 @@
 # importing chainlit
 import chainlit as cl
-
 import os
 # to store API keys
 huggingfacehub_api_token = os.environ['HUGGINGFACEHUB_API_TOKEN']
