@@ -23,3 +23,4 @@ def factory(use_async=False):
     prompt = PromptTemplate(template=template, input_variables=["question"])
     llm_chain = LLMChain(prompt=prompt, llm=llm, verbose=True)
     return llm_chain
+
